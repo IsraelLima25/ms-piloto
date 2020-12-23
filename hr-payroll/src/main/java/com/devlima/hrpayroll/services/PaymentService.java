@@ -1,7 +1,6 @@
 package com.devlima.hrpayroll.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import com.devlima.hrpayroll.entities.Payment;
@@ -13,9 +12,6 @@ public class PaymentService {
 	
 	@Autowired
 	private WorkerFeignClient workerFeignClient;
-
-	@Value("${hr-worker.host}")
-	private String workerHost;
 	
 	public Payment getPayment(Long workerId, int days) {
 		
