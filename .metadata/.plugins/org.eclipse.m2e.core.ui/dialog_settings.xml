@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/home/israel/Documentos/workspaces/ws-sts/ms-piloto"/>
 			<item value="/home/israel/ms-course/hr-worker"/>
 		</list>
 		<list key="projectNameTemplate">
