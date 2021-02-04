@@ -13374,3 +13374,18 @@ java.lang.InterruptedException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-04 13:21:00.568
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.FSqhGEbD
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-04 13:21:00.568
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.FSqhGEbD
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-04 13:21:00.568
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-04 13:21:00.568
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.FSqhGEbD => OK
+
+!ENTRY org.eclipse.jst.jsp.core 4 4 2021-02-04 13:24:59.326
+!MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.
