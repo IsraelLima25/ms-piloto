@@ -14472,3 +14472,45 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-05 10:24:52.397
 !MESSAGE executing callback sts4.classpath.tSxsCUeC SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-05 10:38:28.456
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-05 10:38:28.458
+!MESSAGE classpath=165 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-05 10:38:28.458
+!MESSAGE buffering callback sts4.classpath.tSxsCUeC hr-eureka-server false 165
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-05 10:38:28.458
+!MESSAGE executing callback sts4.classpath.tSxsCUeC 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-05 10:38:28.465
+!MESSAGE executing callback sts4.classpath.tSxsCUeC SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-05 10:38:55.611
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-05 10:38:55.613
+!MESSAGE classpath=165 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-05 10:38:55.613
+!MESSAGE buffering callback sts4.classpath.tSxsCUeC hr-eureka-server false 165
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-05 10:38:55.614
+!MESSAGE executing callback sts4.classpath.tSxsCUeC 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-05 10:38:55.617
+!MESSAGE executing callback sts4.classpath.tSxsCUeC SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-05 10:42:23.496
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.tSxsCUeC
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-05 10:42:23.496
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.tSxsCUeC
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-05 10:42:23.496
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-05 10:42:23.496
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.tSxsCUeC => OK
