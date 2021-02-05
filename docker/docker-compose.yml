@@ -1,0 +1,79 @@
+version: '3'
+networks: 
+    hr-net:
+services:  
+  hr-worker-pg12:
+    image: postgres:12-alpine
+    environment: 
+      POSTGRES_PASSWORD: 1234567
+      POSTGRES_DB: db_hr_worker
+    ports:
+      - 5432:5432
+    networks:
+      - hr-net
+
+  hr-user-pg12:
+    image: postgres:12-alpine
+    environment: 
+      POSTGRES_PASSWORD: 1234567
+      POSTGRES_DB: db_hr_user
+    ports:
+      - 5433:5432
+    networks:
+      - hr-net
+
+  hr-config-server:
+    build:
+      context: ../hr-config-server
+      dockerfile: Dockerfile
+    ports:
+      - "8888:8888"
+    networks: 
+      - hr-net
+
+  hr-eureka-server:
+    build:
+      context: ../hr-eureka-server
+      dockerfile: Dockerfile
+    ports:
+      - "8761:8761"
+    networks: 
+      - hr-net
+
+  hr-worker:
+    build:
+      context: ../hr-worker
+      dockerfile: Dockerfile  
+    networks: 
+      - hr-net
+
+  hr-user:
+    build:
+      context: ../hr-user
+      dockerfile: Dockerfile  
+    networks: 
+      - hr-net
+
+  hr-payroll:
+    build:
+      context: ../hr-payroll
+      dockerfile: Dockerfile  
+    networks: 
+      - hr-net
+
+  hr-oauth:
+    build:
+      context: ../hr-oauth
+      dockerfile: Dockerfile  
+    networks: 
+      - hr-net
+
+  hr-api-gateway-zuul:
+    build:
+      context: ../hr-api-gateway-zuul
+      dockerfile: Dockerfile
+    ports:
+      - "8765:8765"
+    networks: 
+      - hr-net
+
